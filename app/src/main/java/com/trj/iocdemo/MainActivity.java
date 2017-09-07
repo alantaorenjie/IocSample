@@ -18,7 +18,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Ioc.inject(this);
         mTv.setText("123456789");
-
-        
     }
 }
